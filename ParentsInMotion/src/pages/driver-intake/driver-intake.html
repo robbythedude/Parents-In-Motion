@@ -1,0 +1,78 @@
+<!--
+  Generated template for the Landing page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+  <ion-navbar>
+   <ion-buttons left>
+      <button ion-button icon-only>
+        <ion-icon name="arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title text-center>Driver Information</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<ion-list>
+
+	  <ion-item>
+	    <ion-label floating>Full Name</ion-label>
+	    <ion-input type="text"></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label floating>Age</ion-label>
+	    <ion-input type="number"></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label floating>Email</ion-label>
+	    <ion-input type="email"></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label floating>Phone Number</ion-label>
+	    <ion-input type="tel"></ion-input>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label floating>Years of Caregiving Experience</ion-label>
+	    <ion-input type="number"></ion-input>
+	  </ion-item>
+
+	  <br><br>
+
+	  <ion-item>
+	    <ion-label>Do you have a clean driving record?</ion-label>
+	    <ion-checkbox [(ngModel)]="cleanDriving"></ion-checkbox>
+	  </ion-item>	  
+
+	  <br>
+
+	  <ion-item>
+	    <ion-label>Do you have a clean criminal record?</ion-label>
+	    <ion-checkbox [(ngModel)]="cleanCriminal"></ion-checkbox>
+	  </ion-item>
+
+	  <br>
+
+	  <ion-item>
+	    <ion-label>Do you have a 2005 or newer four door vehicle?</ion-label>
+	    <ion-checkbox [(ngModel)]="vehicle"></ion-checkbox>
+	  </ion-item>
+
+		<br><br>		
+
+	  <button ion-button full round (click)="submitDriverInformation()">Submit</button>
+
+	  <br>
+
+	  <ion-label text-center>By clicking Submit, you agree to our </ion-label>
+		<ion-label text-center><a href="">Terms and Services.</a></ion-label>
+
+	</ion-list>
+</ion-content>
