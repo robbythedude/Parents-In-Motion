@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { DriverIntakePage } from '../driver-intake/driver-intake'
 /**
  * Generated class for the Landing page.
  *
@@ -15,6 +16,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class LandingPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  navDriverIntakePage(){
+	this.navCtrl.push(DriverIntakePage);
   }
 
   ionViewDidLoad() {

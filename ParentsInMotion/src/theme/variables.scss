@@ -12,8 +12,30 @@ $font-path: "../assets/fonts";
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
 
+.vertical-align-content > *
+{
+     display: flex!important;
+     align-content: center!important;
+     align-items: center!important;
+}
 
+.content-background-image{
+  //background-image: url('../assets/background.png');
+  background-color: #FFA22A !important;
+  background-size:cover;
+}
 
+.content-background-color{
+  background-color: white !important;
+}
+
+.item-group-shadow{
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.restrict-landing-width-grid{
+	width: 90% !important;
+}
 
 // Named Color Variables
 // --------------------------------------------------

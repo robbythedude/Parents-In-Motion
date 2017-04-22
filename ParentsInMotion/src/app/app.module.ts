@@ -16,7 +16,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,    
     HomePage ,
     LandingPage,
-    DriverIntakeConfirmationPage
+    DriverIntakeConfirmationPage,
+    DriverIntakePage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +28,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,    
     HomePage,
     LandingPage,
-    DriverIntakeConfirmationPage  
+    DriverIntakeConfirmationPage,
+    DriverIntakePage 
   ],
   providers: [
     StatusBar,
