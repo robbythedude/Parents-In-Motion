@@ -12,6 +12,7 @@ import { ScheduleRidePage } from '../pages/schedule-ride/schedule-ride';
 import { CollectAddressPage } from '../pages/collect-address/collect-address';
 import { FoundRidePage } from '../pages/found-ride/found-ride';
 import { RideStatusPage } from '../pages/ride-status/ride-status';
+import { SecretCodePage } from '../pages/secret-code/secret-code';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -27,7 +28,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ScheduleRidePage,
     CollectAddressPage,
     FoundRidePage,
-    RideStatusPage
+    RideStatusPage,
+    SecretCodePage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ScheduleRidePage,
     CollectAddressPage,
     FoundRidePage,
-    RideStatusPage
+    RideStatusPage,
+    SecretCodePage
   ],
   providers: [
     StatusBar,
