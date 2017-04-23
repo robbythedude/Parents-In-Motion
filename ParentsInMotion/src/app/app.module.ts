@@ -10,6 +10,7 @@ import { DriverIntakePage } from '../pages/driver-intake/driver-intake';
 import { KidIntakePage } from '../pages/kid-intake/kid-intake';
 import { ScheduleRidePage } from '../pages/schedule-ride/schedule-ride';
 import { CollectAddressPage } from '../pages/collect-address/collect-address';
+import { FoundRidePage } from '../pages/found-ride/found-ride';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +24,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DriverIntakePage,
     KidIntakePage,
     ScheduleRidePage,
-    CollectAddressPage
+    CollectAddressPage,
+    FoundRidePage
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DriverIntakePage,
     KidIntakePage,
     ScheduleRidePage,
-    CollectAddressPage
+    CollectAddressPage,
+    FoundRidePage
   ],
   providers: [
     StatusBar,

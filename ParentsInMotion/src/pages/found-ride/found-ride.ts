@@ -1,30 +1,24 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import { FoundRidePage } from '../found-ride/found-ride';
-
 /**
- * Generated class for the CollectAddress page.
+ * Generated class for the FoundRide page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
 @IonicPage()
 @Component({
-  selector: 'page-collect-address',
-  templateUrl: 'collect-address.html',
+  selector: 'page-found-ride',
+  templateUrl: 'found-ride.html',
 })
-export class CollectAddressPage {
+export class FoundRidePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  findRide(){
-  	this.navCtrl.push(FoundRidePage);
-  }
-
   ionViewDidLoad() {
-    console.log('ionViewDidLoad CollectAddress');
+    console.log('ionViewDidLoad FoundRide');
   }
 
 }
