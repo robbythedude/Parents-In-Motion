@@ -12,6 +12,14 @@ $font-path: "../assets/fonts";
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
 
+.item-profile {
+  height: 150px;
+  .item-avatar > img:first-child {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+
 .vertical-align-content > *
 {
      display: flex!important;

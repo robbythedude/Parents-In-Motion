@@ -1,18 +1,43 @@
 <!--
-  Generated template for the FoundRide page.
+  Generated template for the Landing page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
 
-  <ion-navbar>
-    <ion-title>found-ride</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
+<ion-content class="content-background-image vertical-align-content">
+  <ion-grid class="content-background-color item-group-shadow restrict-landing-width-grid round-object">
+      <ion-row>
+        <ion-col > 
+  			<h1 text-center>GREAT NEWS!</h1>
+  			<br><br>
+  			<h3 text-center>Your Driver</h3>  			
+        </ion-col>
+      </ion-row>
+      <ion-row>
+      	<ion-col>
+      		<ion-item class="item-profile">
+      			<img src="./assets/headshot.png"/>
+      		</ion-item>      		
+      	</ion-col>
+      	<ion-col>
+      		<ion-item class="item-profile">      			
+      			<img src="./assets/minivan.png"/>      			
+      		</ion-item>
+      	</ion-col>
+      </ion-row>
+      <ion-row>
+      	<ion-col>
+      		<h5 text-center>Allison Ryan</h5>
+      		<ion-label text-center><b>Mom of 2</b> driving <b>White Minivan</b>.</ion-label>
+      	</ion-col>
+      </ion-row>
+      <ion-row>
+      	<ion-col>
+      		<button ion-button full round (click)="navRideStatus()">Request Ride</button>
+      		<br>
+      		<button ion-button full round color="danger">Cancel</button>
+      	</ion-col>
+      </ion-row>
+  </ion-grid>
 </ion-content>
