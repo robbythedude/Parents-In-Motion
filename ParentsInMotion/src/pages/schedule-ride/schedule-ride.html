@@ -4,15 +4,18 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>schedule-ride</ion-title>
-  </ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-
+<ion-content class="content-background-image vertical-align-content">
+  <ion-grid class="content-background-color item-group-shadow restrict-landing-width-grid round-object">
+      <ion-row>
+        <ion-col > 
+  			<img style="margin:auto; display:block;" src="./assets/LandingLogo.png" />
+  			<br><br>
+  			<h1 text-center>NEED A HAND?</h1>
+  			<br>
+  			<button ion-button full round (click)="navScheduleNowPage()">Schedule Now</button>
+  			<br>
+  			<button ion-button full round (click)="navScheduleLatePage()">Schedule Later</button>
+        </ion-col>
+      </ion-row>
+  </ion-grid>
 </ion-content>

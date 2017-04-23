@@ -9,6 +9,7 @@ import { DriverIntakeConfirmationPage } from '../pages/driver-intake-confirmatio
 import { DriverIntakePage } from '../pages/driver-intake/driver-intake';
 import { KidIntakePage } from '../pages/kid-intake/kid-intake';
 import { ScheduleRidePage } from '../pages/schedule-ride/schedule-ride';
+import { CollectAddressPage } from '../pages/collect-address/collect-address';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DriverIntakeConfirmationPage,
     DriverIntakePage,
     KidIntakePage,
-    ScheduleRidePage
+    ScheduleRidePage,
+    CollectAddressPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     DriverIntakeConfirmationPage,
     DriverIntakePage,
     KidIntakePage,
-    ScheduleRidePage
+    ScheduleRidePage,
+    CollectAddressPage
   ],
   providers: [
     StatusBar,
