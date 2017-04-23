@@ -6,13 +6,28 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>driverIntakeConfirmation</ion-title>
+  <ion-navbar hideBackButton="true">
+    <ion-title text-center>Confirmation</ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
-<ion-content padding>
-
+<ion-content class="vertical-align-content">	
+	<ion-grid>
+		<ion-row>
+			<ion-col>
+				<h1 text-center>THANKS!</h1>
+			</ion-col>
+		</ion-row>
+	    <ion-row>
+	      <ion-col > 
+				<ion-label text-center text-wrap>Thank you for your interest in becoming a driver with Parents In Motion! We have receieved your information and will review it as soon as possible. After review, we will contact you with the next steps. </ion-label>				
+	      </ion-col>
+	    </ion-row>
+	    <ion-row>
+			<ion-col>
+				<button ion-button full round (click)="navToLandingPage()">Okay</button>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 </ion-content>

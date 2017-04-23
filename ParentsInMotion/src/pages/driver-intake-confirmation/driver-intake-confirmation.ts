@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { LandingPage } from '../landing/landing'
+
 /**
  * Generated class for the DriverIntakeConfirmation page.
  *
@@ -15,6 +17,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class DriverIntakeConfirmationPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  navToLandingPage(){
+  	this.navCtrl.push(LandingPage);
   }
 
   ionViewDidLoad() {
