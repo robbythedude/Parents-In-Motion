@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { DriverIntakePage } from '../driver-intake/driver-intake'
+import { KidIntakePage } from '../kid-intake/kid-intake'
 /**
  * Generated class for the Landing page.
  *
@@ -20,6 +21,10 @@ export class LandingPage {
 
   navDriverIntakePage(){
 	this.navCtrl.push(DriverIntakePage);
+  }
+
+  navKidIntakePage(){
+  this.navCtrl.push(KidIntakePage);
   }
 
   ionViewDidLoad() {

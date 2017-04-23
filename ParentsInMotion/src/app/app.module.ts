@@ -7,6 +7,8 @@ import { HomePage } from '../pages/home/home';
 import { LandingPage } from '../pages/landing/landing';
 import { DriverIntakeConfirmationPage } from '../pages/driver-intake-confirmation/driver-intake-confirmation';
 import { DriverIntakePage } from '../pages/driver-intake/driver-intake';
+import { KidIntakePage } from '../pages/kid-intake/kid-intake';
+import { ScheduleRidePage } from '../pages/schedule-ride/schedule-ride';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +19,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage ,
     LandingPage,
     DriverIntakeConfirmationPage,
-    DriverIntakePage
+    DriverIntakePage,
+    KidIntakePage,
+    ScheduleRidePage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     LandingPage,
     DriverIntakeConfirmationPage,
-    DriverIntakePage 
+    DriverIntakePage,
+    KidIntakePage,
+    ScheduleRidePage
   ],
   providers: [
     StatusBar,
